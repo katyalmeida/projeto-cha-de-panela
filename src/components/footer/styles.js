@@ -11,6 +11,10 @@ export const Container = styled.div`
     align-items: center;
   }
 
+  a {
+    color: white;
+  }
+
   p {
     font-size: 14px;
     color: white;

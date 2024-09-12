@@ -5,7 +5,10 @@ function Footer() {
   return (
     <Container>
       <div>
-        <p>Desenvolvido com ♥ por Katiane Almeida</p>
+        <p>
+          Desenvolvido com ♥ por 
+          <a href="https://katianealmeida.netlify.app/">Katiane Almeida</a>
+        </p>
       </div>
     </Container>
   );
