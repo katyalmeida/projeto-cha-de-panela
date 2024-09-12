@@ -1,6 +1,12 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+  @media (min-width: 1024px) {
+    padding: 32px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+`;
 
 export const Itens = styled.div`
   cursor: pointer;
@@ -19,6 +25,11 @@ export const Itens = styled.div`
     width: 50px;
     height: 50px;
     margin-top: 8px;
+
+    @media (min-width: 1024px) {
+      width: 100px;
+      height: 100px;
+    }
   }
 
   h1 {
@@ -27,6 +38,10 @@ export const Itens = styled.div`
     font-family: "Lovers Quarrel", cursive;
     font-weight: 400;
     margin-bottom: 20px;
+
+    @media (min-width: 1024px) {
+      font-size: 96px;
+    }
   }
 `;
 
@@ -34,15 +49,26 @@ export const Nomes = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
   img {
     width: 125px;
     margin-top: -22px;
+
+    @media (min-width: 1024px) {
+      width: 250px;
+    }
   }
+
   div {
     margin-top: -12px;
     background-color: #e6e6fa;
     width: 70%;
+
+    @media (min-width: 1024px) {
+      width: 50%;
+    }
   }
+
   h1 {
     font-family: "Miltonian", serif;
     font-weight: 400;
@@ -50,6 +76,10 @@ export const Nomes = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @media (min-width: 1024px) {
+      font-size: 48px;
+    }
   }
 `;
 

@@ -5,11 +5,17 @@ export const GridContainer = styled.div`
   grid-template-columns: repeat(2, 1fr);
   gap: 16px;
   padding: 16px;
+
+  @media (min-width: 1024px) {
+    grid-template-columns: repeat(6, 1fr);
+  }
 `;
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+
   width: 150px;
   gap: 10px;
   margin-top: 35px;
@@ -17,6 +23,11 @@ export const Container = styled.div`
   border-radius: 15px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+  @media (min-width: 1024px) {
+    width: 200px;
+    height: 250px;
+  }
   nav {
     display: flex;
     align-items: center;

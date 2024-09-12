@@ -47,6 +47,11 @@ export const ContainerItens = styled.div`
   z-index: 1001;
   animation: ${fadeIn} 0.3s ease-out;
 
+  @media (min-width: 1024px) {
+    width: 35%;
+    height: 350px;
+  }
+
   form {
     display: flex;
     flex-direction: column;
@@ -77,6 +82,11 @@ export const ContainerItens = styled.div`
       font-family: "Comfortaa", sans-serif;
       font-weight: bold;
 
+      @media (min-width: 1024px) {
+        width: 45px;
+        height: 30px;
+      }
+
       &:hover {
         opacity: 0.7;
       }
@@ -99,6 +109,11 @@ export const ContainerItens = styled.div`
     border: ${(props) => (props.error ? "2px solid red" : "none")};
     padding: 15px;
     border-radius: 20px;
+
+    @media (min-width: 1024px) {
+      width: 400px;
+      height: 45px;
+    }
   }
 
   input::placeholder {
