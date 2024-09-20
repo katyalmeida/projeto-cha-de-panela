@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const conectionApi = axios.create({
-  baseURL: "http://localhost:3001",
+  baseURL: "api-cha-de-panela-production.up.railway.app",
 });
 
 export default conectionApi;
