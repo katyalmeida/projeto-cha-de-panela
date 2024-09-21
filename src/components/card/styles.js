@@ -40,6 +40,7 @@ export const Container = styled.div`
   section {
     font-size: 12px;
     font-family: "Convergence", sans-serif;
+    text-align: center;
   }
 `;
 
