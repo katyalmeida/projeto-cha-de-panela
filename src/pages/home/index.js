@@ -2,7 +2,8 @@
 import React from "react";
 import Coração from "../../assets/coração.png";
 import Pombos from "../../assets/pombinhosHome.png";
-import Casal from "../../assets/casal.png";
+import Casal2 from "../../assets/casal2.jpeg";
+
 import Qr from "../../assets/qr_code.jpeg";
 import { useNavigates } from "../../constants/navigates";
 import Swal from "sweetalert2";
@@ -41,7 +42,11 @@ function App() {
           <h1>Kayc e Camila</h1>
         </div>
       </Nomes>
-      <Image src={Casal}></Image>
+      <section>
+        {" "}
+        <Image src={Casal2}></Image>
+      </section>
+
       <Data>
         <p>Contribua com um presente!</p>
         <button onClick={toSecond}>ACESSE A LISTA</button>

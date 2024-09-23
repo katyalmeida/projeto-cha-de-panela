@@ -19,7 +19,7 @@ export const Container = styled.div`
   width: 150px;
   gap: 10px;
   margin-top: 35px;
-  height: 200px;
+  height: 220px;
   border-radius: 15px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
@@ -41,6 +41,7 @@ export const Container = styled.div`
     font-size: 12px;
     font-family: "Convergence", sans-serif;
     text-align: center;
+    height: 20px;
   }
 `;
 

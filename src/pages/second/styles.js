@@ -8,7 +8,9 @@ export const Itens = styled.div`
   justify-content: center;
   align-items: center;
   gap: 15px;
-  background-color: #f7ebdd;
+  /* background-color: #f7ebdd; */
+  background-color: #f08080;
+
   height: 45px;
   font-size: 12px;
   font-weight: 600;

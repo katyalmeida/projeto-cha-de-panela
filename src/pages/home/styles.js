@@ -84,9 +84,13 @@ export const Nomes = styled.div`
 `;
 
 export const Image = styled.img`
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
   margin-top: 40px;
-  width: 100%;
-  height: 190px;
+  width: 45%;
+
+  /* height: 190px; */
 `;
 export const Data = styled.div`
   display: flex;
