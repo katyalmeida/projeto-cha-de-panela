@@ -9,7 +9,7 @@ export const Itens = styled.div`
   align-items: center;
   gap: 15px;
   /* background-color: #f7ebdd; */
-  background-color: #f08080;
+  background-color: #ffb6c1;
 
   height: 45px;
   font-size: 12px;
