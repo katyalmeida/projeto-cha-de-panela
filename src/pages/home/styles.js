@@ -97,8 +97,8 @@ export const Data = styled.div`
   align-items: center;
   flex-direction: column;
   gap: 6px;
-  margin-top: 25px;
-  margin-bottom: 29px;
+  margin-top: 20px;
+  margin-bottom: 18px;
 
   .copy-button {
     cursor: pointer;
@@ -131,8 +131,7 @@ export const Data = styled.div`
     font-family: "Convergence", sans-serif;
   }
   button {
-    margin-bottom: 20px;
-    margin-top: 10px;
+    margin-bottom: 16px;
     cursor: pointer;
     background-color: #832b47;
     width: 180px;
@@ -148,5 +147,13 @@ export const Data = styled.div`
       background-color: #c83966;
       transform: scale(1.1);
     }
+  }
+`;
+
+export const Date = styled.div`
+  p {
+    text-align: center;
+    font-family: "Convergence", sans-serif;
+    font-size: 12px;
   }
 `;

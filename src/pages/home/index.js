@@ -8,7 +8,7 @@ import Qr from "../../assets/qr_code.jpeg";
 import { useNavigates } from "../../constants/navigates";
 import Swal from "sweetalert2";
 
-import { Container, Itens, Nomes, Image, Data } from "./styles.js";
+import { Container, Itens, Nomes, Image, Data, Date } from "./styles.js";
 
 function App() {
   const { toSecond } = useNavigates();
@@ -57,6 +57,15 @@ function App() {
           COPIAR QR-CODE
         </button>
       </Data>
+      <Date>
+        <p>
+          Local :Antiga Cesta do Povo.
+          <br></br>
+          Data: 24/11/2024
+          <br></br>
+          Horário: 17:00
+        </p>
+      </Date>
     </Container>
   );
 }

@@ -1,9 +1,9 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState, useEffect } from "react";
-import Background2 from "../../assets/background2.png";
 
 import BackgroundDesktop from "../../assets/backgorund_desktop.jpg";
+import Background from "../../assets/background2.png";
 import { Container } from "./styles";
 
 function Header() {
@@ -29,7 +29,7 @@ function Header() {
         <img src={BackgroundDesktop} />
       ) : (
         <div>
-          <img src={Background2} />
+          <img src={Background} />
         </div>
       )}
     </Container>
