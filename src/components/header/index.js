@@ -1,7 +1,6 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState, useEffect } from "react";
-import Background from "../../assets/background.png";
 import Background2 from "../../assets/background2.png";
 
 import BackgroundDesktop from "../../assets/backgorund_desktop.jpg";
