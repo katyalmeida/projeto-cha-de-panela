@@ -2,6 +2,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React, { useState, useEffect } from "react";
 import Background from "../../assets/background.png";
+import Background2 from "../../assets/background2.png";
+
 import BackgroundDesktop from "../../assets/backgorund_desktop.jpg";
 import { Container } from "./styles";
 
@@ -28,7 +30,7 @@ function Header() {
         <img src={BackgroundDesktop} />
       ) : (
         <div>
-          <img src={Background} />
+          <img src={Background2} />
         </div>
       )}
     </Container>
