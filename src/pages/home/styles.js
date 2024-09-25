@@ -132,6 +132,7 @@ export const Data = styled.div`
   }
   button {
     margin-bottom: 16px;
+    margin-top: 15px;
     cursor: pointer;
     background-color: #832b47;
     width: 180px;
