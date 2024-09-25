@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import Card from "../../components/card";
 import Skeleton from "../../components/skeleton";
+import ScrollToTop from "../../components/scrool";
+
 import { Container, Itens, Temas, Produtos, BackToHome } from "./styles";
 import conectionApi from "../../server.js";
 import { useNavigates } from "../../constants/navigates";
@@ -102,6 +104,7 @@ function Lista() {
           filteredProducts && <Card filteredProducts={filteredProducts} />
         )}
       </Produtos>
+      <ScrollToTop />
     </Container>
   );
 }
